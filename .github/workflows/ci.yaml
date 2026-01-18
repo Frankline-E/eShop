@@ -23,8 +23,8 @@ jobs:
       # ✅ Install pnpm FIRST (adds it to PATH)
       - name: Install pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
+        # with:
+        #   version: 9
 
       # ✅ Setup Node AFTER pnpm so cache works
       - name: Setup Node.js
