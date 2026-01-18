@@ -1,0 +1,31 @@
+# node / pnpm
+node_modules
+.pnpm-store
+.pnpm-debug.log
+
+# turbo
+.turbo
+
+# git
+.git
+.gitignore
+
+# build output
+dist
+build
+out
+coverage
+
+# env
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Next.js
+.next
+
+# Docker
+Dockerfile
+docker-compose.yml
